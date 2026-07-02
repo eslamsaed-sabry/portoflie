@@ -1,0 +1,10 @@
+@mixin overlay($img) {
+  background-image: linear-gradient(
+      rgba(6, 124, 250, 0.7),
+      rgba(6, 124, 250, 0.7)
+    ),
+    url($img);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

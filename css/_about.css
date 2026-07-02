@@ -1,0 +1,45 @@
+#about {
+  .about-box {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 12px;
+  }
+
+  .about-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .about-info {
+    p {
+      font-weight: 600;
+      color: var(--text-dark);
+
+      span {
+        font-weight: 400;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .about-text {
+    p {
+      color: var(--text-gray);
+      line-height: 1.7;
+    }
+  }
+
+  /* Responsive */
+  @media (max-width: 992px) {
+    .about-box {
+      padding: 25px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .about-info,
+    .about-text {
+      text-align: center;
+    }
+  }
+}

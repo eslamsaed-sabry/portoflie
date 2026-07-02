@@ -1,0 +1,34 @@
+#services {
+  padding: var(--section-padding) 0;
+
+  .services-content {
+    padding: 30px;
+    border-radius: 15px;
+    background: var(--white);
+    transition: var(--transition);
+
+    &:hover {
+      transform: translateY(-10px);
+    }
+  }
+
+  .icon {
+    border: 3px solid var(--primary);
+  }
+
+  .section-counter {
+    @include overlay("../img/counters-bg.jpg");
+
+    .icon {
+      border: 2px solid #fff;
+      color: #fff;
+    }
+  }
+
+  /* Responsive */
+  @media (max-width: 992px) {
+    .services-content {
+      margin-bottom: 20px;
+    }
+  }
+}

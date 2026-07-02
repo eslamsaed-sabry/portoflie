@@ -1,0 +1,17 @@
+:root {
+  --primary: #238bff;
+  --secondary: #6366f1;
+
+  --white: #fff;
+  --black: #000;
+
+  --text-dark: #1f2937;
+  --text-gray: #6b7280;
+
+  --transition: 0.3s;
+
+  --section-padding: 80px;
+
+  --fs-hero-title: 48px;
+  --fs-text: 16px;
+}
